@@ -72,6 +72,7 @@ form {
     box-sizing: border-box;
     width: 60%;
     display: flex;
+    justify-content:space-around;
     flex-wrap: wrap;
 }
 
@@ -84,10 +85,6 @@ label {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
-}
-
-form div:nth-child(even){
-    margin-left: 50px;
 }
 
 input {
