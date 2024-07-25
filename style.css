@@ -1,0 +1,132 @@
+@font-face {
+    font-family: logo-font;
+    src: url(../../Downloads/Norse-Bold.otf);
+}
+
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.image-container {
+    position:relative;
+    width: 35vw;
+    height: 110vh;
+}
+
+.image-container > img {
+    width: 100%;
+    height: 100%;
+}
+
+.image-container div {
+    position: absolute;
+    top: 140px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    height: 90px;
+    background-color: black;
+    opacity: 0.7;
+    font-family: logo-font, 'Courier New', Courier, monospace;
+    color: white;
+}
+
+.logo-image {
+    width: 60px;
+    height: 80px;
+}
+
+.text-container {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-color: #E5E7EB;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.text-container p {
+    margin-top: 0px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 80%;
+}
+
+.form-container {
+    padding-left: 30px;
+    height: 30%;
+    padding-bottom: 30px;
+}
+
+.form-container > p {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+form {
+    box-sizing: border-box;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+label {
+    font-size: 0.75rem;
+    color: gray;
+}
+
+.form-question {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form div:nth-child(even){
+    margin-left: 50px;
+}
+
+input {
+    border: 1px solid #E5E7EB;
+    width: 200px;
+    height: 25px;
+}
+
+.footer {
+    padding-left: 30px;
+    background-color: #E5E7EB;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+}
+
+button {
+    padding: 8px 25px;
+    background-color: #596D48;
+    color: white;
+    font-weight: bolder;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;    
+    color:#596D48;
+}
+
+input:focus {
+    border-color: lightskyblue;
+}
+
+input[type="password"]:invalid {
+    border-color: red;
+}
