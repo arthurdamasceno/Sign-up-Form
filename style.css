@@ -11,7 +11,7 @@ body {
 
 .image-container {
     position:relative;
-    width: 35vw;
+    width: 45%;
     height: 110vh;
 }
 
@@ -72,7 +72,8 @@ form {
     box-sizing: border-box;
     width: 60%;
     display: flex;
-    justify-content:space-around;
+    column-gap: 30px;
+    row-gap: 20px;
     flex-wrap: wrap;
 }
 
@@ -84,7 +85,6 @@ label {
 .form-question {
     display: flex;
     flex-direction: column;
-    margin-bottom: 20px;
 }
 
 input {
